@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: rgb(114, 214, 71);
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.wrapper{
+    max-width: 1080px;
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    padding: 5px;
+    height: 2000px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+h1{
+    font-weight: 600;
+
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+
+    cursor: pointer;
+}
+
+.registration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 3px 5px 15px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(71, 67, 67);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Login{
+    font-weight: 500;
+    color: white;
+}
+
+.SingUp{
+    padding: 7px 14px;
+    background-color: white;
+
+    border-radius: 20px;
+}
+
+
+
+/* MAIN INFORMASHEN */
+.main-info{
+    display: flex;
+    gap: 20px;
+    max-width: 95%;
+    height: 600px;
+    margin: 30px auto;
+    
+}
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+.buying-home{
+    background-color: rgb(71, 67, 67);
+
+    border-radius: 20px;
+    width: 580px;
+    height: 550px;;
+}
+
+.buying-home h2{
+    margin: 20px 20px;
+    color: white;
+}
+
+.rental-housing{
+    background-color: #cd6815;
+    
+
+    border-radius: 20px;
+    width: 430px;
+    height: 310px;;
+}
+
+
+.rental-housing h2{
+    margin: 20px 20px;
+    color: white;
+}
+
+.new-building{
+    background-color: rgb(25, 115, 40);
+
+    border-radius: 20px;
+    width: 430px;
+    height: 220px;;
+}
+
+.new-building h2{
+    margin: 20px 20px;
+    color: white;
+}
